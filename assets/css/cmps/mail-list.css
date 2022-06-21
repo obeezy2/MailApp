@@ -1,0 +1,11 @@
+.mail-list {
+    grid-area: maillist;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(254, 255, 254);
+    flex-grow: 4;
+    overflow-y: auto;
+    height: 60vh;
+    letter-spacing: .2px;
+}

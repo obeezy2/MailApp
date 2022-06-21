@@ -1,0 +1,113 @@
+.mail-preview {
+    font-size: .875rem;
+    border-bottom: 0.3px solid rgb(201, 192, 192);
+    padding: 10px 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    position: relative;
+    flex-grow: 1;
+    max-height: 40px;
+}
+
+.subject-preview {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    flex-grow: 1;
+    text-align: left;
+
+}
+
+.text-preview {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 30rem;
+    text-align: left;
+    flex-basis: 16rem;
+    overflow: hidden;
+    margin-right: 200px;
+}
+
+
+.mail-preview td {
+    padding: 20px 10px;
+    flex-basis: auto;
+    flex-shrink: 3;
+
+}
+
+.date-preview {
+    white-space: nowrap;
+    margin-inline-end: 7px;
+}
+
+.preview-options {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    width: 120px
+}
+
+.expand-preview {
+    height: 100px;
+}
+
+.expand-preview-cell {
+    white-space: normal;
+    position: relative;
+    overflow: visible;
+}
+
+.expand-preview-cell-content {
+    position: absolute;
+    top: 0;
+    height: 300px;
+    text-align: left;
+    width: 700px
+}
+
+.bold {
+    font-family: robo-bold;
+    font-weight: 1000;
+}
+
+.name-preview {
+    min-width: 7rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+
+.preview-options img {
+    margin: 0 4px;
+    opacity: 0.5;
+    transition: 0.7s ease-in-out all;
+}
+
+.preview-options img:hover {
+    margin: 0 4px;
+    opacity: 1.5;
+    transform: scale(1.2);
+}
+
+.mail-preview:hover {
+    color: #ccc;
+}
+
+.star-preview img {
+    height: 20px;
+}
+
+.star-preview {
+    transition: 0.3s ease-in-out all;
+
+}
+
+.star-preview:hover {
+    transform: scale(1.2);
+
+}

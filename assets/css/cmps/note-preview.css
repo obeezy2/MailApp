@@ -1,0 +1,60 @@
+.note-preview {
+	border: 1px solid rgba(110, 110, 110, 0.514);
+	position: relative;
+	width: 240px;
+	word-break: break-all;
+	display: inline-block;
+	font-family: robo-lig;
+	border-radius: 10px;
+	padding-bottom: 10px;
+	margin-block-end: 1.5rem;
+	box-sizing: content-box;
+
+	/* margin-inline-end: 5px; */
+}
+
+.note-header {
+	font-size: 0.875rem;
+}
+
+.note-desc {
+	text-align: left;
+	padding: 10px;
+}
+
+.btn-container {
+	opacity: 0;
+	/* visibility: hidden; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.note-preview:hover {
+	box-shadow: 5px -2px 13px 0px #b7b3b3c4;
+}
+
+.note-preview:hover .btn-container {
+	opacity: 1;
+	/* visibility: visible; */
+}
+.btn-delete-note::before {
+	font-family: fo;
+	content: '\f1f8';
+}
+
+.btn-update-note::before {
+	font-family: fo;
+	content: '\f14b';
+}
+
+
+.btn-color {
+	position: relative;
+}
+
+
+.btn-color:hover .colors-container {
+	display: flex;
+}
